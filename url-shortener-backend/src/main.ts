@@ -8,8 +8,8 @@ async function bootstrap() {
 
   app.enableCors({
   origin: [
-    'https://url-shortly-liart.vercel.app',
-    'https://www.url-shortly-liart.vercel.app', 
+    'https://url-shortly-q5if.vercel.app',
+    'https://www.url-shortly-q5if.vercel.app', 
   ],
   credentials: true,
 });
