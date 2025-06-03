@@ -2,35 +2,7 @@ import type { User, UrlItem } from "../types";
 import axios from "axios";
 const API = import.meta.env.BACKEND_URL ?? "http://localhost:3000";
 // const SHORT_URL_DOMAIN = "https://sho.rt";
-// Mock data for demonstration purposes
 
-// const MOCK_USERS: User[] = [
-//   {
-//     id: '1',
-//     name: 'John Doe',
-//     email: 'john@example.com',
-//     avatar: 'https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&w=150',
-//   },
-// ];
-
-// const MOCK_URLS: UrlItem[] = [
-//   {
-//     id: "1",
-//     originalUrl:
-//       "https://www.example.com/very/long/url/that/needs/shortening/for/better/sharing/experience",
-//     shortUrl: "https://sho.rt/abc123",
-//     clicks: 42,
-//     createdAt: new Date().toISOString(),
-//   },
-//   {
-//     id: "2",
-//     originalUrl:
-//       "https://www.anotherexample.com/path/to/resource?param=value&another=param",
-//     shortUrl: "https://sho.rt/def456",
-//     clicks: 17,
-//     createdAt: new Date(Date.now() - 86400000).toISOString(),
-//   },
-// ];
 
 const delay = (ms: number) => new Promise((resolve) => setTimeout(resolve, ms));
 
