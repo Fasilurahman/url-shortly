@@ -1,7 +1,7 @@
 import type { User, UrlItem } from "../types";
 import axios from "axios";
-const API = "http://localhost:3000";
-const SHORT_URL_DOMAIN = "https://sho.rt";
+const API = import.meta.env.BACKEND_URL ?? "http://localhost:3000";
+// const SHORT_URL_DOMAIN = "https://sho.rt";
 // Mock data for demonstration purposes
 
 // const MOCK_USERS: User[] = [
