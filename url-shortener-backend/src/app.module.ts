@@ -11,7 +11,7 @@ import { UrlModule } from './url/url.module';
     ConfigModule.forRoot({
       isGlobal: true, 
     }),
-    MongooseModule.forRoot('mongodb://localhost:27017/url-shortener'),
+    MongooseModule.forRoot(process.env.MONGODB_URI || 'mongodb://localhost:27017'),
     AuthModule,
     UrlModule
   ],
