@@ -1,6 +1,6 @@
 import type { User, UrlItem } from "../types";
 import axios from "axios";
-const API = import.meta.env.BACKEND_URL ?? "http://localhost:3000";
+const API = import.meta.env.VITE_BACKEND_URL ?? "http://localhost:3000";
 // const SHORT_URL_DOMAIN = "https://sho.rt";
 
 
